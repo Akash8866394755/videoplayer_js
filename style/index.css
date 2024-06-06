@@ -1,0 +1,56 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+* {
+    font-family: Poppins;
+}
+#container {
+    background-color: #ccc;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#input-file {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    background:black;
+    opacity: 0;
+
+}
+#upload-background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    
+    
+}
+#upload-para{
+    padding: 0;margin: 0;
+    color: #323232;
+    font-size: 50px;
+    font-weight: 900;
+
+}
+#upload-icon {
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    color: #434343;
+}
+#result {
+    display: none;
+}
+
